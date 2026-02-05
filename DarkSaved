@@ -1,0 +1,535 @@
+-- ts file was generated at bisam
+
+local fenv = getfenv()
+
+fenv._YOuAJJkjaluc = 'This file was protected with MoonSec V3'
+
+wait()
+
+fenv.MoonSec_StringsHiddenAttr = true
+
+local _5 = loadstring(game:HttpGet('https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua'))()
+local _9 = loadstring(game:HttpGet('https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua'))()
+local _13 = loadstring(game:HttpGet('https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua'))()
+local _call21 = _5:CreateWindow({
+    SubTitle = 'By Shife',
+    Title = 'BlueRed Hub V21 | ' .. _5.Version,
+    MinimizeKey = Enum.KeyCode.LeftControl,
+    Theme = 'Dark',
+    Acrylic = true,
+    TabWidth = 160,
+    Size = UDim2.fromOffset(580, 460),
+})
+local _call23 = _call21:AddTab({
+    Title = 'MurderMystery Scripts',
+    Icon = '',
+})
+local _call25 = _call21:AddTab({
+    Title = 'Natural Disaster Scripts',
+    Icon = '',
+})
+local _call27 = _call21:AddTab({
+    Title = 'Legends Of Speed Scripts',
+    Icon = '',
+})
+local _call29 = _call21:AddTab({
+    Title = 'Blade Ball Scripts',
+    Icon = '',
+})
+local _call31 = _call21:AddTab({
+    Title = 'Brookhaven Scripts',
+    Icon = '',
+})
+local _call33 = _call21:AddTab({
+    Title = 'Jailbreak Scripts',
+    Icon = '',
+})
+local _call35 = _call21:AddTab({
+    Title = 'Arsenal Scripts',
+    Icon = '',
+})
+local _call37 = _call21:AddTab({
+    Title = 'Doors Scripts',
+    Icon = '',
+})
+local _call39 = _call21:AddTab({
+    Title = 'Main',
+    Icon = '',
+})
+local _call41 = _call21:AddTab({
+    Title = 'Settings',
+    Icon = 'settings',
+})
+local _Options42 = _5.Options
+
+_5:Notify({
+    Duration = 5,
+    SubContent = 'SubContent',
+    Content = 'This is a notification',
+    Title = 'Notification',
+})
+_call23:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0Murder'))()
+    end,
+    Description = 'Script 1',
+    Title = 'Murder Mystery Script 1',
+})
+_call23:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://pastebin.com/raw/xqzqxUYq'))()
+    end,
+    Description = 'Script 2',
+    Title = 'Murder Mystery Script 2',
+})
+_call23:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Gregory909/FolderGui-FolderHub/main/loader.lua', true))()
+    end,
+    Description = 'Script 3',
+    Title = 'Murder Mystery Script 3',
+})
+_call23:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2'))()
+    end,
+    Description = 'Script 4',
+    Title = 'Murder Mystery Script 4',
+})
+_call23:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Dekos-lgbty/imp/main/mm2'))()
+    end,
+    Description = 'Script 5',
+    Title = 'Murder Mystery Script 5',
+})
+_call23:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Dekos-lgbty/r3th/main/script'))()
+    end,
+    Description = 'Script 6',
+    Title = 'Murder Mystery Script 6',
+})
+_call25:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/SIX-MENU/SIX-HUB-NATURAL-DESASTRE'))()
+    end,
+    Description = 'Script 1',
+    Title = 'NaturalDisaster Script 1',
+})
+_call25:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://weinzspace.com/cata/hub.lua'))()
+    end,
+    Description = 'Script 2',
+    Title = 'NaturalDisaster Script 2',
+})
+_call25:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubNaturalDisasterSurvival'))()
+    end,
+    Description = 'Script 4',
+    Title = 'NaturalDisaster Script 4',
+})
+_call25:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/stuffman0001/CanHub/main/Code'))()
+    end,
+    Description = 'Script 5',
+    Title = 'NaturalDisaster Script 5',
+})
+_call27:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://pastebin.com/raw/yPF7xktN'))()
+    end,
+    Description = 'Script 1',
+    Title = 'Legends Of Speed Script 1',
+})
+_call27:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://pastebin.com/raw/xa2vDTCc'))()
+    end,
+    Description = 'Script 2',
+    Title = 'Legends Of Speed Script 2',
+})
+_call27:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHublegendsofspeed'))()
+    end,
+    Description = 'Script 3',
+    Title = 'Legends Of Speed Script 3',
+})
+_call27:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Legends%20Of%20Speed/Script.lua', true))()
+    end,
+    Description = 'Script 4',
+    Title = 'Legends Of Speed Script 4',
+})
+_call27:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/PhoenixxxTS/Scripts/main/LegendsOfSpeed'))()
+    end,
+    Description = 'Script 5',
+    Title = 'Legends Of Speed Script 5',
+})
+_call27:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://rawscripts.net/raw/Legends-Of-Speed-Speeeeed-Farm-Open-Source-old-code-lel-1785'))()
+    end,
+    Description = 'Script 6',
+    Title = 'Legends Of Speed Script 6',
+})
+_call29:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SoyAdriYT/PitbullHubX/refs/heads/main/PitbullHubX.lua', true))()
+    end,
+    Description = 'Script 1',
+    Title = 'Blade Ball Script 1',
+})
+_call29:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://pastebin.com/raw/dBGjm0Lv'))()
+    end,
+    Description = 'Script 2',
+    Title = 'Blade Ball Script 2',
+})
+_call29:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://pastebin.com/raw/FL71vYPT'))()
+    end,
+    Description = 'Script 3',
+    Title = 'Blade Ball Script 3',
+})
+_call29:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://pastebin.com/raw/E07Wyg7L'))()
+    end,
+    Description = 'Script 4',
+    Title = 'Blade Ball Script 4',
+})
+_call29:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/5iREx/script/main/Blade%20Ball'))()
+    end,
+    Description = 'Script 5',
+    Title = 'Blade Ball Script 5',
+})
+_call29:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ZzzScript/SpectacularHubScript/main/BladeBall'))()
+    end,
+    Description = 'Script 6',
+    Title = 'Blade Ball Script 6',
+})
+_call31:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/kigredns/SanderXV4.2.2/refs/heads/main/New.lua'))()
+    end,
+    Description = 'Sandex X Hub',
+    Title = 'Brookhaven Script 1',
+})
+_call31:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/AstroXTeam/AstroXHubNeta/refs/heads/main/Testtt'))()
+    end,
+    Description = 'Astro X Hub',
+    Title = 'Brookhaven Script 2',
+})
+_call31:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub', true))()
+    end,
+    Description = 'Mango Hub',
+    Title = 'Brookhaven Script 3',
+})
+_call31:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://rawscripts.net/raw/Brookhaven-RP-Rochips-Universal-21865'))()
+    end,
+    Description = 'Rochis Universal',
+    Title = 'Brookhaven Script 4',
+})
+_call31:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://rawscripts.net/raw/Brookhaven-RP-ZEKROM-HUB-Zkm-23568'))()
+    end,
+    Description = 'ZekRom Hub',
+    Title = 'Brookhaven Script 5',
+})
+_call33:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/paid2'))()
+    end,
+    Description = 'Script 1',
+    Title = 'Jailbreak Script 1',
+})
+_call33:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/JailMonkey.lua'))()
+    end,
+    Description = 'Script 2',
+    Title = 'Jailbreak Script 2',
+})
+_call33:AddButton({
+    Callback = function(...)
+        local _ = fenv.ScriptRobloxMK
+
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular'))(nil)
+    end,
+    Description = 'Script 3',
+    Title = 'Jailbreak Script 3',
+})
+_call35:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Arsenalscript.txt'))()
+    end,
+    Description = 'Script 1',
+    Title = 'Arsenal Script 1',
+})
+_call35:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal'))()
+    end,
+    Description = 'Script 2',
+    Title = 'Arsenal Script 2',
+})
+_call35:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal'))()
+    end,
+    Description = 'Script 3',
+    Title = 'Arsenal Script 3',
+})
+_call35:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/D8rkX/D8rk-Hub/main/Arsenal%20Scripts/Hubs-Extras/Melee%20Hub%20V1.lua', true))()
+    end,
+    Description = 'Script 4',
+    Title = 'Arsenal Script 4',
+})
+_call35:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://pastebin.com/raw/G6Ubkkuv'))()
+    end,
+    Description = 'Script 5',
+    Title = 'Arsenal Script 5',
+})
+_call35:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tbao143/thaibao/main/ArsenalTbaoHubNew'))()
+    end,
+    Description = 'Script 6',
+    Title = 'Arsenal Script 6',
+})
+_call37:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://pst.innomi.net/paste/dw8uteaxwdb4ga9kyuf9hcga/raw'))()
+    end,
+    Description = 'Script 1',
+    Title = 'Doors Script 1',
+})
+_call37:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/VaniaPerets/FolderGui-FolderHub/main/loader.lua', true))()
+    end,
+    Description = 'Script 2',
+    Title = 'Doors Script 2',
+})
+_call37:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ltseverydayyou/endless-doors/main/endless%20madness%20buster', true))()
+    end,
+    Description = 'Script 3',
+    Title = 'Doors Script 3',
+})
+_call37:AddButton({
+    Callback = function(...)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/VaniaPerets/FolderGui-FolderHub/main/loader.lua', true))()
+    end,
+    Description = 'Script 4',
+    Title = 'Doors Script 4',
+})
+
+local _call327 = _call39:AddToggle('MyToggle', {
+    Title = 'Toggle',
+    Default = false,
+})
+
+_call327:OnChanged(function(...)
+    print('Toggle changed:', _Options42.MyToggle.Value)
+end)
+_Options42.MyToggle:SetValue(false)
+
+local _call338 = _call39:AddSlider('Slider', {
+    Min = 0,
+    Title = 'Slider',
+    Default = 2,
+    Max = 5,
+    Description = 'This is a slider',
+    Callback = function(...)
+        local _339_vararg1 = ...
+
+        print('Slider was changed:', _339_vararg1)
+    end,
+    Rounding = 1,
+})
+
+_call338:OnChanged(function(...)
+    local _343_vararg1 = ...
+
+    print('Slider changed:', _343_vararg1)
+end)
+_call338:SetValue(3)
+
+local _call348 = _call39:AddDropdown('Dropdown', {
+    Default = 1,
+    Multi = false,
+    Values = {
+        [1] = 'one',
+        [2] = 'two',
+        [3] = 'three',
+        [4] = 'four',
+        [5] = 'five',
+        [6] = 'six',
+        [7] = 'seven',
+        [8] = 'eight',
+        [9] = 'nine',
+        [10] = 'ten',
+        [11] = 'eleven',
+        [12] = 'twelve',
+        [13] = 'thirteen',
+        [14] = 'fourteen',
+    },
+    Title = 'Dropdown',
+})
+
+_call348:SetValue('four')
+_call348:OnChanged(function(...)
+    local _353_vararg1 = ...
+
+    print('Dropdown changed:', _353_vararg1)
+end)
+
+local _call356 = _call39:AddDropdown('MultiDropdown', {
+    Title = 'Dropdown',
+    Default = {
+        [1] = 'seven',
+        [2] = 'twelve',
+    },
+    Multi = true,
+    Values = {
+        [1] = 'one',
+        [2] = 'two',
+        [3] = 'three',
+        [4] = 'four',
+        [5] = 'five',
+        [6] = 'six',
+        [7] = 'seven',
+        [8] = 'eight',
+        [9] = 'nine',
+        [10] = 'ten',
+        [11] = 'eleven',
+        [12] = 'twelve',
+        [13] = 'thirteen',
+        [14] = 'fourteen',
+    },
+    Description = 'You can select multiple values.',
+})
+
+_call356:SetValue({
+    three = true,
+    seven = false,
+    five = true,
+})
+_call356:OnChanged(function(...)
+    local _361_vararg1 = ...
+
+    for _362, _362_2 in next, _361_vararg1 do end
+
+    print('Mutlidropdown changed:', _362)
+end)
+
+local _call367 = _call39:AddColorpicker('Colorpicker', {
+    Title = 'Colorpicker',
+    Default = Color3.fromRGB(96, 205, 255),
+})
+
+_call367:OnChanged(function(...)
+    print('Colorpicker changed:', _call367.Value)
+end)
+_call367:SetValueRGB(Color3.fromRGB(0, 255, 140))
+
+local _call380 = _call39:AddColorpicker('TransparencyColorpicker', {
+    Default = Color3.fromRGB(96, 205, 255),
+    Transparency = 0,
+    Description = 'but you can change the transparency.',
+    Title = 'Colorpicker',
+})
+
+_call380:OnChanged(function(...)
+    print('TColorpicker changed:', _call380.Value, 'Transparency:', _call380.Transparency)
+end)
+
+local _call388 = _call39:AddKeybind('Keybind', {
+    Default = 'LeftControl',
+    ChangedCallback = function(...)
+        local _389_vararg1 = ...
+
+        print('Keybind changed!', _389_vararg1)
+    end,
+    Mode = 'Toggle',
+    Callback = function(...)
+        local _391_vararg1 = ...
+
+        print('Keybind clicked!', _391_vararg1)
+    end,
+    Title = 'KeyBind',
+})
+
+_call388:OnClick(function(...)
+    print('Keybind clicked:', _call388:GetState())
+end)
+_call388:OnChanged(function(...)
+    print('Keybind changed:', _call388.Value)
+end)
+task.spawn(function(...)
+    wait(1)
+    _call388:GetState()
+    print('Keybind is being held down')
+
+    local _ = _5.Unloaded
+end)
+_call388:SetValue('MB2', 'Toggle')
+
+local _call414 = _call39:AddInput('Input', {
+    Placeholder = 'Placeholder',
+    Title = 'Input',
+    Numeric = false,
+    Finished = false,
+    Callback = function(...)
+        local _415_vararg1 = ...
+
+        print('Input changed:', _415_vararg1)
+    end,
+    Default = 'Default',
+})
+
+_call414:OnChanged(function(...)
+    print('Input updated:', _call414.Value)
+end)
+_9:SetLibrary(_5)
+_13:SetLibrary(_5)
+_9:IgnoreThemeSettings()
+_9:SetIgnoreIndexes({})
+_13:SetFolder('FluentScriptHub')
+_9:SetFolder('FluentScriptHub/specific-game')
+_13:BuildInterfaceSection(_call41)
+_9:BuildConfigSection(_call41)
+_call21:SelectTab(1)
+_5:Notify({
+    Duration = 8,
+    Content = 'The script has been loaded.',
+    Title = 'Fluent',
+})
+_9:LoadAutoloadConfig()
