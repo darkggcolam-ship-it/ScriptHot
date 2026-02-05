@@ -38,7 +38,7 @@ G2L["25"]["Name"] = [[MainFrame]];
 
 -- StarterGui.DeltaGui.MainUi.MainFrame.SideFrame
 G2L["26"] = Instance.new("Frame", G2L["25"]);
-G2L["26"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["26"]["BackgroundColor3"] = Color3.fromRGB(245, 252, 255);
 G2L["26"]["BackgroundTransparency"] = 1;
 G2L["26"]["Size"] = UDim2.new(0.11645293235778809, 0, 1.0000001192092896, 0);
 G2L["26"]["Name"] = [[SideFrame]];
