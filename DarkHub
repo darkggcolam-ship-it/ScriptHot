@@ -3968,7 +3968,7 @@ G2L_MODULES[G2L["b8"]] = {
 
 	This is a heavily modified and Roblox-optimized version of
 	the original Penlight Lexer module:
-		https://github.com/stevedonovan/Penlight
+		https://github.com/darkggcolam-ship-it/Penlightu
 
 	Authors:
 		stevedonovan <https://github.com/stevedonovan> ----------------- Original Penlight lexer author
