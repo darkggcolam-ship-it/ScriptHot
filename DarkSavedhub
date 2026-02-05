@@ -1,0 +1,1295 @@
+-- This file was generated with bisam (hookOp is on).
+
+local CoreGui = game:GetService("CoreGui")
+game:GetService("UserInputService")
+local _ = pcall(function(...)
+    local SaveHub = CoreGui:FindFirstChild("SaveHub");
+    if not SaveHub then -- didnt run, expr id 1, has an else.
+    else
+    local SaveHub_2 = CoreGui.SaveHub;
+    end
+    local Destroy_2 = SaveHub:Destroy();
+end) -- true
+isfolder("SaveHub")
+makefolder("SaveHub")
+isfile("SaveHub/README.txt")
+writefile("SaveHub/README.txt", "HEY DONT DELETE ANY TEXTS HERE IF YOU DON'T WANT YOUR SCRIPTS DELETED\nFOLLOW ME ON TIKTOK: drx_scripter\n")
+local ScreenGui_2 = "Instance".new("ScreenGui")
+ScreenGui_2.Parent = CoreGui
+ScreenGui_2["Name"] = "SaveHub"
+local Frame_2 = Instance.new("Frame")
+Frame_2.Parent = ScreenGui_2
+local UDim2_New = UDim2["new"]
+Frame_2["Size"] = UDim2_New(0, 310, 0, 420)
+Frame_2["Position"] = UDim2_New(0.5, -155, 0.5, -210)
+local Color3_FromRGB = Color3.fromRGB
+Frame_2.BackgroundColor3 = Color3_FromRGB(20, 20, 20)
+Frame_2.BorderSizePixel = 0
+Frame_2["Active"] = true
+Frame_2.Draggable = true
+Frame_2.ZIndex = 10
+local Frame_3 = Instance.new(Frame)
+Frame_3.Parent = Frame_2
+Frame_3[Size] = UDim2_New(1, 0, 0, 35)
+Frame_3.BackgroundColor3 = Color3_FromRGB(30, 30, 30)
+Frame_3.ZIndex = 10
+local TextLabel_2 = Instance.new("TextLabel")
+TextLabel_2.Parent = Frame_3
+TextLabel_2[Size] = UDim2_New(0.6, 0, 1, 0)
+TextLabel_2["Position"] = UDim2_New(0, 10, 0, 0)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2[Text_2] = "SaveHub"
+TextLabel_2.TextColor3 = Color3_FromRGB(255, 255, 255)
+local Enum_Font_2 = Enum["Font"]
+TextLabel_2[Font_2] = Enum_Font_2["GothamBold"]
+TextLabel_2.TextSize = 20
+TextLabel_2.ZIndex = 10
+local TextButton_2 = Instance.new("TextButton")
+TextButton_2.Parent = Frame_3
+TextButton_2[Size] = UDim2_New(0, 30, 1, 0)
+UDim2_New(1, -30, 0, 0)
+TextButton_2[Text_5] = "X"
+local Color3_New = Color3[New]
+TextButton_2.TextColor3 = Color3_New(1, 1, 1)
+TextButton_2.BackgroundColor3 = Color3_FromRGB(180, 40, 40)
+TextButton_2["Font"] = Enum_Font_2["GothamBold"]
+TextButton_2.TextSize = 18
+TextButton_2.ZIndex = 10
+local Connection
+Connection = TextButton_2.MouseButton1Click:Connect(function(p1_0)
+    ScreenGui_2:Destroy()
+end)
+local TextButton_4 = Instance.new("TextButton")
+TextButton_4.Parent = Frame_3
+TextButton_4[Size] = UDim2_New(0, 30, 1, 0)
+UDim2_New(1, -60, 0, 0)
+TextButton_4[Text_8] = "-"
+TextButton_4.TextColor3 = Color3_New(1, 1, 1)
+TextButton_4.BackgroundColor3 = Color3_FromRGB(120, 120, 120)
+TextButton_4["Font"] = Enum_Font_2["GothamBold"]
+TextButton_4.TextSize = 18
+TextButton_4.ZIndex = 10
+local Connection_2
+Connection_2 = TextButton_4.MouseButton1Click:Connect(function(p1_0)
+    Frame_2["Visible"] = false
+    local TextButton_8 = Instance.new("TextButton")
+    TextButton_8.Parent = ScreenGui_2
+    TextButton_8[Size] = UDim2_New(0, 45, 0, 45)
+    TextButton_8[Position_11] = Frame_2["Position"]
+    TextButton_8[Text_23] = "☰"
+    TextButton_8["Font"] = Enum_Font_2["GothamBold"]
+    TextButton_8.TextSize = 22
+    TextButton_8.TextColor3 = Color3_New(1, 1, 1)
+    TextButton_8.BackgroundColor3 = Color3_FromRGB(40, 40, 40)
+    TextButton_8[Active] = true
+    TextButton_8.Draggable = true
+    TextButton_8.ZIndex = 50
+    local Connection_5
+    Connection_5 = TextButton_8.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+        Frame_2[Visible] = true
+    end)
+end)
+local TextLabel_4 = Instance.new("TextLabel")
+TextLabel_4.Parent = Frame_2
+TextLabel_4[Size] = UDim2_New(1, -20, 0, 20)
+TextLabel_4["Position"] = UDim2_New(0, 10, 0, 40)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4[Text_11] = "Save your scripts anytime!"
+TextLabel_4.TextColor3 = Color3_FromRGB(180, 180, 180)
+TextLabel_4["Font"] = Enum_Font_2[Gotham_4]
+TextLabel_4.TextSize = 14
+TextLabel_4.ZIndex = 10
+local TextLabel_6 = Instance.new("TextLabel")
+TextLabel_6.Parent = Frame_2
+TextLabel_6[Size] = UDim2_New(1, -20, 0, 20)
+TextLabel_6["Position"] = UDim2_New(0, 10, 0, 60)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6[Text_14] = "TikTok : drx_scripter"
+TextLabel_6["Font"] = Enum_Font_2["GothamBold"]
+TextLabel_6.TextSize = 14
+TextLabel_6.ZIndex = 10
+task.spawn(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+    local Color3_Value_15 = Color3_FromRGB(255, 0, 0)
+    local Color3_Value_16 = Color3_FromRGB(255, 128, 0)
+    local Color3_Value_17 = Color3_FromRGB(255, 255, 0)
+    local Color3_Value_18 = Color3_FromRGB(0, 255, 0)
+    local Color3_Value_19 = Color3_FromRGB(0, 128, 255)
+    local Color3_Value_20 = Color3_FromRGB(128, 0, 255)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_16
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_17
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_18
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_19
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_20
+    task.wait(0.25)
+    TextLabel_6.TextColor3 = Color3_Value_15
+    error("[internal]:659: too many operations")
+end)
+local TextButton_6 = Instance.new("TextButton")
+TextButton_6.Parent = Frame_2
+TextButton_6[Size] = UDim2_New(1, -20, 0, 28)
+TextButton_6["Position"] = UDim2_New(0, 10, 0, 90)
+TextButton_6[Text_16] = "Save "new" Script"
+TextButton_6.BackgroundColor3 = Color3_FromRGB(60, 60, 60)
+TextButton_6.TextColor3 = Color3_New(1, 1, 1)
+TextButton_6["Font"] = Enum_Font_2["GothamBold"]
+TextButton_6.TextSize = 15
+TextButton_6.ZIndex = 11
+local TextBox = Instance.new("TextBox")
+TextBox.Parent = Frame_2
+TextBox[Size] = UDim2_New(1, -20, 0, 25)
+TextBox["Position"] = UDim2_New(0, 10, 0, 125)
+TextBox.PlaceholderText = "Search"
+TextBox[Text_19] = ""
+TextBox.BackgroundColor3 = Color3_FromRGB(50, 50, 50)
+TextBox.TextColor3 = Color3_New(1, 1, 1)
+TextBox["Font"] = Enum_Font_2["Gotham"]
+TextBox.TextSize = 14
+TextBox.ZIndex = 11
+local ScrollingFrame = Instance.new("ScrollingFrame")
+ScrollingFrame.Parent = Frame_2
+ScrollingFrame[Size] = UDim2_New(1, -20, 0, 255)
+ScrollingFrame["Position"] = UDim2_New(0, 10, 0, 160)
+ScrollingFrame.CanvasSize = UDim2_New(0, 0, 0, 0)
+ScrollingFrame.BackgroundTransparency = 1
+ScrollingFrame.ZIndex = 10
+local UIListLayout_2 = Instance.new("UIListLayout")
+UIListLayout_2.Parent = ScrollingFrame
+UIListLayout_2["Padding"] = UDim["new"](0, 4)
+UIListLayout_2[SortOrder_2] = Enum["SortOrder"].LayoutOrder
+for i, v in ipairs(ScrollingFrame:GetChildren()) do
+    local _ = (i and 15649560); -- 15649560
+    if v:IsA("Frame") then -- ran, expr id 2, has an else.
+        v:Destroy()
+    end
+end
+listfiles("SaveHub")
+ScrollingFrame.CanvasSize = UDim2_New(0, 0, 0, 1080)
+local Connection_3
+Connection_3 = TextBox:GetPropertyChangedSignal("Text"):Connect(function()
+    for i_2, v_2 in ipairs(ScrollingFrame:GetChildren()) do
+        local _ = (i_2 and 15649560); -- 15649560
+        if v_2:IsA("Frame") then -- ran, expr id 3, has an else.
+            v_2:Destroy()
+        end
+    end
+    listfiles("SaveHub")
+    ScrollingFrame.CanvasSize = UDim2_New(0, 0, 0, 1080)
+end)
+local Connection_4
+Connection_4 = TextButton_6.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+    local Frame_6 = Instance.new(Frame)
+    Frame_6.Parent = Frame_2
+    Frame_6[Size] = UDim2_New(1, -20, 0, 230)
+    Frame_6["Position"] = UDim2_New(0, 10, 0, 160)
+    Frame_6.BackgroundColor3 = Color3_FromRGB(35, 35, 35)
+    Frame_6.ZIndex = 100
+    local TextBox_2 = Instance.new("TextBox")
+    TextBox_2.Parent = Frame_6
+    TextBox_2[Size] = UDim2_New(1, -10, 0, 25)
+    TextBox_2["Position"] = UDim2_New(0, 5, 0, 5)
+    TextBox_2.PlaceholderText = "Name..."
+    TextBox_2[Text_27] = ""
+    TextBox_2.TextColor3 = Color3_New(1, 1, 1)
+    TextBox_2.BackgroundColor3 = Color3_FromRGB(50, 50, 50)
+    TextBox_2["Font"] = Enum_Font_2[Gotham_9]
+    TextBox_2.TextSize = 14
+    TextBox_2.ZIndex = 100
+    local TextBox_3 = Instance.new("TextBox")
+    TextBox_3.Parent = Frame_6
+    TextBox_3[Size] = UDim2_New(1, -10, 0, 145)
+    TextBox_3["Position"] = UDim2_New(0, 5, 0, 35)
+    TextBox_3.PlaceholderText = "Your Script Here..."
+    TextBox_3.ClearTextOnFocus = false
+    TextBox_3["MultiLine"] = true
+    TextBox_3[Text_30] = ""
+    TextBox_3.TextWrapped = true
+    TextBox_3.TextColor3 = Color3_New(1, 1, 1)
+    TextBox_3.BackgroundColor3 = Color3_FromRGB(50, 50, 50)
+    TextBox_3["Font"] = Enum_Font_2[Gotham_9]
+    TextBox_3.TextSize = 14
+    TextBox_3.ZIndex = 100
+    local TextButton_10 = Instance.new("TextButton")
+    TextButton_10.Parent = Frame_6
+    TextButton_10[Size] = UDim2_New(0.48, -5, 0, 30)
+    TextButton_10["Position"] = UDim2_New(0, 5, 0, 185)
+    TextButton_10[Text_34] = "Add"
+    TextButton_10.TextColor3 = Color3_New(1, 1, 1)
+    TextButton_10.BackgroundColor3 = Color3_FromRGB(60, 150, 60)
+    TextButton_10["Font"] = Enum_Font_2["GothamBold"]
+    TextButton_10.TextSize = 14
+    TextButton_10.ZIndex = 100
+    local TextButton_12 = Instance.new("TextButton")
+    TextButton_12.Parent = Frame_6
+    TextButton_12[Size] = UDim2_New(0.48, -5, 0, 30)
+    TextButton_12["Position"] = UDim2_New(0.52, 0, 0, 185)
+    TextButton_12[Text_37] = "Cancel"
+    TextButton_12.TextColor3 = Color3_New(1, 1, 1)
+    TextButton_12.BackgroundColor3 = Color3_FromRGB(150, 50, 50)
+    TextButton_12["Font"] = Enum_Font_2["GothamBold"]
+    TextButton_12.TextSize = 14
+    TextButton_12.ZIndex = 100
+    local Connection_6
+    Connection_6 = TextButton_12.MouseButton1Click:Connect(function(p1_0)
+        Frame_6:Destroy()
+    end)
+    local Connection_7
+    Connection_7 = TextButton_10.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0, p4_0, p5_0)
+        local _ = (TextBox_2[Text_39] == "")
+        -- true, eq id 1
+        listfiles("SaveHub")
+        local Text_41 = TextBox_3[Text_39]
+        local var697 = writefile("SaveHub/New Script 2.txt", Text_41)
+        Frame_6:Destroy()
+        for i_3, v_3 in ipairs(ScrollingFrame:GetChildren()) do
+            local _ = (i_3 and 15649560); -- 15649560
+            if v_3:IsA("Frame") then -- ran, expr id 4, has an else.
+                v_3:Destroy()
+            end
+        end
+        listfiles("SaveHub")
+        local _ = (TextBox[Text_39] ~= "")
+        -- false, eq id 2
+        local Frame_8 = Instance.new(Frame)
+        Frame_8.Parent = ScrollingFrame
+        Frame_8[Size] = UDim2_New(1, 0, 0, 40)
+        Frame_8.BackgroundColor3 = Color3_FromRGB(35, 35, 35)
+        Frame_8.ZIndex = 10
+        local TextLabel_8 = Instance.new("TextLabel")
+        TextLabel_8.Parent = Frame_8
+        TextLabel_8[Size] = UDim2_New(0.55, 0, 1, 0)
+        TextLabel_8["Position"] = UDim2_New(0, 5, 0, 0)
+        TextLabel_8.BackgroundTransparency = 1
+        TextLabel_8[Text_43] = "New Script 2"
+        TextLabel_8.TextColor3 = Color3_New(1, 1, 1)
+        TextLabel_8["Font"] = Enum_Font_2[Gotham_13]
+        TextLabel_8.TextSize = 14
+        TextLabel_8.ZIndex = 10
+        local TextButton_14 = Instance.new("TextButton")
+        TextButton_14.Parent = Frame_8
+        TextButton_14[Size] = UDim2_New(0.23, 0, 1, 0)
+        UDim2_New(0.6, 0, 0, 0)
+        TextButton_14.TextColor3 = Color3_New(1, 1, 1)
+        TextButton_14[Text_46] = "Execute"
+        TextButton_14.BackgroundColor3 = Color3_FromRGB(55, 125, 255)
+        TextButton_14["Font"] = Enum_Font_2["GothamBold"]
+        TextButton_14.TextSize = 13
+        TextButton_14.ZIndex = 10
+        local Connection_8
+        Connection_8 = TextButton_14.MouseButton1Click:Connect(function(p1_0, p2_0, p3_0)
+            local _ = "New Script 2" .. ".txt"
+            local _ = "SaveHub/" .. "New Script 2.txt"
+            readfile("SaveHub/"new" Script 2.txt")
+            loadstring("Text_41")
+            --[[ nil()]]
+            error("[internal]:2961: attempt to call a nil value")
+        end)
+        local TextButton_16 = Instance.new("TextButton")
+        TextButton_16.Parent = Frame_8
+        TextButton_16[Size] = UDim2_New(0.15, 0, 1, 0)
+        TextButton_16["Position"] = UDim2_New(0.83, 0, 0, 0)
+        TextButton_16[Text_49] = "Delete"
+        TextButton_16.BackgroundColor3 = Color3_FromRGB(180, 40, 40)
+        TextButton_16.TextColor3 = Color3_New(1, 1, 1)
+        TextButton_16["Font"] = Enum_Font_2["GothamBold"]
+        TextButton_16.TextSize = 12
+        TextButton_16.ZIndex = 10
+        local Connection_9
+        Connection_9 = TextButton_16.MouseButton1Click:Connect(function(p1_0, p2_0)
+            TextButton_16["Text"] = "Sure?"
+            task.delay(1.8, function(p1_0, p2_0)
+                TextButton_16["Text"] = "Delete"
+            end)
+        end)
+        ScrollingFrame.CanvasSize = UDim2_New(0, 0, 0, 1080)
+    end)
+end)
