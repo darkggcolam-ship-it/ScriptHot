@@ -101,7 +101,7 @@ G2L["30"] = Instance.new("LocalScript", G2L["2c"]);
 -- StarterGui.DeltaGui.MainUi.MainFrame.SideFrame.Buttons.MakeScript
 G2L["31"] = Instance.new("ImageButton", G2L["2b"]);
 G2L["31"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["31"]["Image"] = [[rbxassetid://12730930487]];
+G2L["31"]["Image"] = [[rbxassetid://139375620021839]];
 G2L["31"]["Size"] = UDim2.new(0.5177212357521057, 0, 0.08347529172897339, 0);
 G2L["31"]["Name"] = [[MakeScript]];
 G2L["31"]["Position"] = UDim2.new(0.2424367517232895, 0, 0.186909481883049, 0);
